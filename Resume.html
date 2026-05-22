@@ -1,284 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Mark John Ifurung</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BreakNest</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <!-- Linked CSS Style Sheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="portfolio-container">
-        <aside class="sidebar">
-            <div class="profile-section">
-                <div class="profile-photo">
-                  <img src="ID.jpg" alt="Mark John Ifurung">
-                </div>
-                <h1 class="name">Mark John Ifurung</h1>
-                <p class="title">Data Entry Specialist | IT Student</p>
-                
-                <div class="personal-info">
-                    <div class="info-item">
-                        <span class="label">Residence:</span>
-                        <span class="value">Philippines</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="label">City:</span>
-                        <span class="value">Taguig City</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="label">Age:</span>
-                        <span class="value">28</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="label">Phone:</span>
-                        <span class="value">+63 956 970 6246</span>
-                    </div>
-                    <div class="info-item">
-                        <span class="label">Email:</span>
-                        <span class="value">Emjhya0914@gmail.com</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="languages-section">
-                <h3 class="section-title">Languages</h3>
-                <div class="language-skills">
-                    <div class="language-item">
-                        <div class="circular-progress" data-value="90">
-                            <svg viewBox="0 0 36 36" class="circular-chart">
-                                <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                                <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            </svg>
-                            <span class="percentage">90%</span>
-                        </div>
-                        <span class="lang-name">English</span>
-                    </div>
-                    <div class="language-item">
-                        <div class="circular-progress" data-value="75">
-                            <svg viewBox="0 0 36 36" class="circular-chart">
-                                <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                                <path class="circle" stroke-dasharray="75, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
-                            </svg>
-                            <span class="percentage">75%</span>
-                        </div>
-                        <span class="lang-name">Filipino</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="skills-section">
-                <h3 class="section-title">Technical Skills</h3>
-                <div class="skill-bars">
-                    <div class="skill-bar">
-                        <div class="skill-info">
-                            <span>AutoCAD</span>
-                            <span>85%</span>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-info">
-                            <span>Data Entry</span>
-                            <span>95%</span>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 95%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-info">
-                            <span>Programming</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 70%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-info">
-                            <span>Visual Design</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 80%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-info">
-                            <span>Software Development</span>
-                            <span>75%</span>
-                        </div>
-                        <div class="progress-bar">
-                            <div class="progress" style="width: 75%"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="tools-section">
-                <h3 class="section-title">Tools & Technologies</h3>
-                <ul class="tools-list">
-                    <li><i class="fas fa-check"></i> AutoCAD 2D/3D</li>
-                    <li><i class="fas fa-check"></i> Microsoft Office</li>
-                    <li><i class="fas fa-check"></i> Data Management</li>
-                    <li><i class="fas fa-check"></i> Technical Drawing</li>
-                    <li><i class="fas fa-check"></i> Blueprint Reading</li>
-                </ul>
-            </div>
-
-            <div class="download-cv">
-                <a href="#" class="btn-download"><i class="fas fa-download"></i> Download CV</a>
-            </div>
-
-            <div class="social-links">
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
-        </aside>
-
-        <main class="main-content">
-            <section class="hero-section" id="home">
-                <div class="hero-content">
-                    <h1 class="hero-title">Discover my Professional<br>Expertise & Skills!</h1>
-                    <p class="hero-subtitle"><code>&lt;info&gt; I specialize in data management, CAD drafting, and IT solutions. &lt;/info&gt;</code></p>
-                    <a href="#experience" class="btn-explore">Explore Now</a>
-                </div>
-                <div class="hero-image">
-                    <img src="ID.jpg" alt="Professional">
-                </div>
-            </section>
-
-            <section class="stats-section">
-                <div class="stat-item">
-                    <span class="stat-number">4+</span>
-                    <span class="stat-label">Years Experience</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">3</span>
-                    <span class="stat-label">Completed Roles</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">100%</span>
-                    <span class="stat-label">Client Satisfaction</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number">5+</span>
-                    <span class="stat-label">Technical Skills</span>
-                </div>
-            </section>
-
-            <section class="services-section" id="experience">
-                <h2 class="section-heading">My Work Experience</h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <h3>Data Key Entry Operator</h3>
-                        <p class="service-company">Freight Process Outsourcing Solution Inc.</p>
-                        <p class="service-period">2024 - 2025</p>
-                        <p class="service-desc">Accurately entered, updated, and maintained data in company databases, ensuring timely completion of tasks while adhering to data integrity and confidentiality standards.</p>
-                        <a href="#" class="btn-order">View Details <i class="fas fa-arrow-right"></i></a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <h3>Supervisor</h3>
-                        <p class="service-company">Grinta Consumers Goods Trading</p>
-                        <p class="service-period">2021 - 2024</p>
-                        <p class="service-desc">Created advertising pubmats for promotion of the store. Managed people and trained new staff.</p>
-                        <a href="#" class="btn-order">View Details <i class="fas fa-arrow-right"></i></a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-search"></i>
-                        </div>
-                        <h3>Researcher</h3>
-                        <p class="service-company">Roy l.B 7 Tutoring Review Center</p>
-                        <p class="service-period">2019 - 2021</p>
-                        <p class="service-desc">Researcher of Business and Economics Development on International School research.</p>
-                        <a href="#" class="btn-order">View Details <i class="fas fa-arrow-right"></i></a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-laptop-code"></i>
-                        </div>
-                        <h3>IT Student</h3>
-                        <p class="service-company">Pateros Technological College</p>
-                        <p class="service-period">2021 - Present</p>
-                        <p class="service-desc">Enhancement of skill about Programming and Visual Designer. Enhancing skill in Software Development.</p>
-                        <a href="#" class="btn-order">View Details <i class="fas fa-arrow-right"></i></a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-drafting-compass"></i>
-                        </div>
-                        <h3>CAD Drafting</h3>
-                        <p class="service-company">Technical Skills</p>
-                        <p class="service-period">Proficient</p>
-                        <p class="service-desc">Proficient in 2D drafting and basic 3D modeling using AutoCAD. Experience creating floor plans, mechanical drawings, and schematics.</p>
-                        <a href="#" class="btn-order">View Details <i class="fas fa-arrow-right"></i></a>
-                    </div>
-
-                    <div class="service-card">
-                        <div class="service-icon">
-                            <i class="fas fa-graduation-cap"></i>
-                        </div>
-                        <h3>Aeronautics Background</h3>
-                        <p class="service-company">Philippine State College of Aeronautics</p>
-                        <p class="service-period">2012 - 2017</p>
-                        <p class="service-desc">BSAE degree with strong technical foundation and problem-solving skills.</p>
-                        <a href="#" class="btn-order">View Details <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </section>
-
-            <section class="references-section">
-                <h2 class="section-heading">Character References</h2>
-                <div class="references-grid">
-                    <div class="reference-card">
-                        <h4>Arnel Bien H. Francisco, CPA, MBA</h4>
-                        <p>Associate, JCV & Associates Project Deutsche Knowledge Services</p>
-                        <p class="ref-contact"><i class="fas fa-phone"></i> 0917-823-4941</p>
-                    </div>
-                    <div class="reference-card">
-                        <h4>Tanya Lagtapon</h4>
-                        <p>Deputy Finance Manager</p>
-                        <p class="ref-contact"><i class="fas fa-phone"></i> 0920-972-4596</p>
-                    </div>
-                    <div class="reference-card">
-                        <h4>Joseph Henson</h4>
-                        <p>Risk Manager, Asian Development Bank</p>
-                        <p class="ref-contact"><i class="fas fa-phone"></i> 0917-720-0923</p>
-                    </div>
-                </div>
-            </section>
-
-            <footer class="main-footer">
-                <p>&copy; 2025 Mark John Ifurung. All rights reserved.</p>
-            </footer>
-        </main>
-
-        <nav class="side-nav">
-            <ul>
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+  <!-- SIDEBAR NAVIGATION -->
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <h2 class="brand-color">BreakNest</h2>
+      <span class="close-btn" onclick="closeMenu()">&times;</span>
     </div>
+    <ul>
+      <li><a href="#" onclick="handleHome()">Home</a></li>
+      <li><a href="#" onclick="handleTimeTracking()">Time</a></li>
+      <li><a href="#" onclick="handleBreakTracking()">Breaks</a></li>
+      <li><a href="#" onclick="handleProfileEdit()">Profile</a></li>
+      <li><a href="#" onclick="openRecords()">Records</a></li>
+    </ul>
+  </div>
+
+  <!-- HEADER -->
+  <div class="header">
+    <i class="fa-solid fa-bars menu-btn" onclick="openMenu()"></i>
+    <div class="logo">
+      <i class="fa-regular fa-clock"></i>
+    </div>
+  </div>
+
+  <!-- HERO SECTION -->
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <div class="hero-logo">
+        <i class="fa-regular fa-clock"></i>
+      </div>
+      <h1>BreakNest</h1>
+    </div>
+  </div>
+
+  <!-- MAIN APP CONTENT -->
+  <div class="content">
+    <p class="welcome">
+      This is the Manpower Attendance Record.
+    </p>
+
+    <!-- CARD 1: TIME IN & OUT -->
+    <div class="card clickable-card" onclick="handleTimeTracking()">
+      <div class="card-left">
+        <div class="icon-box">
+          <i class="fa-regular fa-clock"></i>
+        </div>
+        <div>
+          <h3>Time In & Out</h3>
+          <p>Time on Work</p>
+        </div>
+      </div>
+      <i class="fa-solid fa-chevron-right arrow"></i>
+    </div>
+
+    <!-- CARD 2: TRACK BREAKS -->
+    <div class="card">
+      <div class="card-left">
+        <div class="icon-box">
+          <i class="fa-solid fa-stopwatch"></i>
+        </div>
+        <div>
+          <h3>Track Breaks</h3>
+          <p>Clock break in and break out</p>
+        </div>
+      </div>
+      <button class="blue-btn" onclick="handleBreakTracking()">Start Break</button>
+    </div>
+
+    <!-- CARD 3: EDIT PROFILE -->
+    <div class="card clickable-card" onclick="handleProfileEdit()">
+      <div class="card-left">
+        <div class="icon-box">
+          <i class="fa-regular fa-user"></i>
+        </div>
+        <div>
+          <h3>Edit Profile</h3>
+          <p>Update your personal information</p>
+        </div>
+      </div>
+      <i class="fa-solid fa-chevron-right arrow"></i>
+    </div>
+
+    <!-- NEW CARD 4: VIEW RECORDS -->
+    <div class="card clickable-card" onclick="openRecords()">
+      <div class="card-left">
+        <div class="icon-box">
+          <i class="fa-solid fa-folder-open"></i>
+        </div>
+        <div>
+          <h3>View Records</h3>
+          <p>Check your historical data logs</p>
+        </div>
+      </div>
+      <i class="fa-solid fa-chevron-right arrow"></i>
+    </div>
+  </div>
+
+  <!-- POPUP RECORDS MODAL CONTAINER -->
+  <div class="modal-overlay" id="recordsModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3>📋 Activity History Logs</h3>
+        <span class="modal-close" onclick="closeRecords()">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p style="margin-bottom: 15px; color: #666; font-size: 14px;">Here are your most recent entries:</p>
+        <table class="records-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Action</th>
+              <th>Duration / Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>May 22, 2026</td>
+              <td><span class="badge badge-work">Shift Start</span></td>
+              <td>09:00 AM</td>
+            </tr>
+            <tr>
+              <td>May 22, 2026</td>
+              <td><span class="badge badge-break">Coffee Break</span></td>
+              <td>15 mins</td>
+            </tr>
+            <tr>
+              <td>May 21, 2026</td>
+              <td><span class="badge badge-work">Shift End</span></td>
+              <td>05:30 PM</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // Sidebar Controls
+    function openMenu() {
+      document.getElementById("sidebar").classList.add("active");
+    }
+
+    function closeMenu() {
+      document.getElementById("sidebar").classList.remove("active");
+    }
+
+    // Navigation and Action handlers
+    function handleHome() {
+      closeMenu();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function handleTimeTracking() {
+      closeMenu();
+      alert("⏱️ Shift tracking activated! Logging your work hours.");
+    }
+
+    function handleBreakTracking() {
+      closeMenu();
+      alert("☕ Break started! Take a deep breath and relax.");
+    }
+
+    function handleProfileEdit() {
+      closeMenu();
+      alert("👤 Navigating to your Profile Settings page.");
+    }
+
+    // Modal Display Controls for Records
+    function openRecords() {
+      closeMenu();
+      document.getElementById("recordsModal").classList.add("show");
+    }
+
+    function closeRecords() {
+      document.getElementById("recordsModal").classList.remove("show");
+    }
+
+    // Close modal if user clicks anywhere outside the card box
+    window.onclick = function(event) {
+      let modal = document.getElementById("recordsModal");
+      if (event.target == modal) {
+        modal.classList.remove("show");
+      }
+    }
+  </script>
 </body>
 </html>
